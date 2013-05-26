@@ -1,0 +1,8 @@
+F:\main\Folders\Cracks\Coding\C# files\GitHub\KnotsAndCrosses\KnotsAndCrosses\KnotsAndCrosses\bin\Debug\KnotsAndCrosses.exe.config
+F:\main\Folders\Cracks\Coding\C# files\GitHub\KnotsAndCrosses\KnotsAndCrosses\KnotsAndCrosses\bin\Debug\KnotsAndCrosses.exe
+F:\main\Folders\Cracks\Coding\C# files\GitHub\KnotsAndCrosses\KnotsAndCrosses\KnotsAndCrosses\bin\Debug\KnotsAndCrosses.pdb
+F:\main\Folders\Cracks\Coding\C# files\GitHub\KnotsAndCrosses\KnotsAndCrosses\KnotsAndCrosses\obj\Debug\KnotsAndCrosses.Properties.Resources.resources
+F:\main\Folders\Cracks\Coding\C# files\GitHub\KnotsAndCrosses\KnotsAndCrosses\KnotsAndCrosses\obj\Debug\KnotsAndCrosses.csproj.GenerateResource.Cache
+F:\main\Folders\Cracks\Coding\C# files\GitHub\KnotsAndCrosses\KnotsAndCrosses\KnotsAndCrosses\obj\Debug\KnotsAndCrosses.exe
+F:\main\Folders\Cracks\Coding\C# files\GitHub\KnotsAndCrosses\KnotsAndCrosses\KnotsAndCrosses\obj\Debug\KnotsAndCrosses.pdb
+F:\main\Folders\Cracks\Coding\C# files\GitHub\KnotsAndCrosses\KnotsAndCrosses\KnotsAndCrosses\obj\Debug\KnotsAndCrosses.Form1.resources
