@@ -16,9 +16,10 @@ namespace KnotsAndCrosses
         {
             InitializeComponent();
         }
-        int turn = 1;
-        int flag1 = 0, flag2 = 0, flag3 = 0, flag4 = 0, flag5 = 0, flag6 = 0, flag7 = 0, flag8 = 0, flag9 = 0;
-        int score1 = 0, score2 = 0;
+
+        int turn = 1;//used to deremine who's turn it is, 1 is O since O always starts first.
+        int flag1 = 0, flag2 = 0, flag3 = 0, flag4 = 0, flag5 = 0, flag6 = 0, flag7 = 0, flag8 = 0, flag9 = 0;//used to determine when a player wins
+        int score1 = 0, score2 = 0;//used to keep score
 
         private void label5_Click(object sender, EventArgs e)
         {
