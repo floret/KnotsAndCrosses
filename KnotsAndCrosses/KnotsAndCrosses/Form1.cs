@@ -16,9 +16,9 @@ namespace KnotsAndCrosses
         {
             InitializeComponent();
         }
-        int turn = 1;
-        int player = 0;
+        int turn = 1;        
         int flag1 = 0, flag2 = 0, flag3 = 0, flag4 = 0, flag5 = 0, flag6 = 0, flag7 = 0, flag8 = 0, flag9 = 0;
+
         private void label5_Click(object sender, EventArgs e)
         {
             if (turn == 1)
@@ -101,94 +101,125 @@ namespace KnotsAndCrosses
             else if (turn == 2)
             { label11.Text = "X"; turn = 1; flag9 = 2; }
             Logic();
-
         }
-        int gamestate = 0;
+        /// <summary>
+        /// Resets the game board so that another round can be played.
+        /// </summary>
+        private void Reset()
+        {
+            label5.Text = "";
+            label6.Text = "";
+            label7.Text = "";
+            label8.Text = "";
+            label9.Text = "";
+            label10.Text = "";
+            label11.Text = "";
+            label12.Text = "";
+            label13.Text = "";
+        }
+        /// <summary>
+        /// Determines when someone wins.
+        /// </summary>
         private void Logic()
         {//this code should maybe be put into a switch statement.
+            //first horizontal row.
             if ((flag1 == 1) && (flag2 == 1) && (flag3 == 1))
             {
                 MessageBox.Show("Player 1 Wins!");
-                //gamestate = 1;
+                Reset();
             }
             else if ((flag1 == 2) && (flag2 == 2) && (flag3 == 2))
             {
                 MessageBox.Show("Player 2 Wins!");
+                Reset();
             }
+
             //second horizontal row.
             if ((flag4 == 1) && (flag5 == 1) && (flag6 == 1))
             {
                 MessageBox.Show("Player 1 Wins!");
-                //gamestate = 1;
+                Reset();
             }
             else if ((flag4 == 2) && (flag5 == 2) && (flag6 == 2))
             {
                 MessageBox.Show("Player 2 Wins!");
+                Reset();
             }
+
             //third horizontal row.
             if ((flag7 == 1) && (flag8 == 1) && (flag9 == 1))
             {
                 MessageBox.Show("Player 1 Wins!");
-                //gamestate = 1;
+                Reset();
             }
             else if ((flag7 == 2) && (flag8 == 2) && (flag9 == 2))
             {
                 MessageBox.Show("Player 2 Wins!");
+                Reset();
             }
+
             //first vertical row.
             if ((flag1 == 1) && (flag4 == 1) && (flag7 == 1))
             {
                 MessageBox.Show("Player 1 Wins!");
-                //gamestate = 1;
+                Reset();
             }
             else if ((flag1 == 2) && (flag4 == 2) && (flag7 == 2))
             {
                 MessageBox.Show("Player 2 Wins!");
+                Reset();
             }
+
             //second vertical row.
             if ((flag2 == 1) && (flag5 == 1) && (flag8 == 1))
             {
                 MessageBox.Show("Player 1 Wins!");
-                //gamestate = 1;
+                Reset();
             }
             else if ((flag2 == 2) && (flag5 == 2) && (flag8 == 2))
             {
                 MessageBox.Show("Player 2 Wins!");
+                Reset();
             }
+
             //third vertical row.
             if ((flag3 == 1) && (flag6 == 1) && (flag9 == 1))
             {
                 MessageBox.Show("Player 1 Wins!");
-                //gamestate = 1;
+                Reset();
             }
             else if ((flag3 == 2) && (flag6 == 2) && (flag9 == 2))
             {
                 MessageBox.Show("Player 2 Wins!");
+                Reset();
             }
+
             //first diagonal row.
             if ((flag1 == 1) && (flag5 == 1) && (flag9 == 1))
             {
                 MessageBox.Show("Player 1 Wins!");
-                //gamestate = 1;
+                Reset();
             }
             else if ((flag1 == 2) && (flag5 == 2) && (flag9 == 2))
             {
                 MessageBox.Show("Player 2 Wins!");
+                Reset();
             }
+
             //second diagonal row.
             if ((flag7 == 1) && (flag5 == 1) && (flag3 == 1))
             {
                 MessageBox.Show("Player 1 Wins!");
-                //gamestate = 1;
+                Reset();
             }
             else if ((flag7 == 2) && (flag5 == 2) && (flag3 == 2))
             {
                 MessageBox.Show("Player 2 Wins!");
+                Reset();
             }  
         }
     }
 }
 //TODO: add counter to keep score.
-//TODO: make the game reset afte displaying who won the round.
 //TODO: ask the user best of how many they would like to play.
 //TODO: let the player choose between single- and multiplayer.
