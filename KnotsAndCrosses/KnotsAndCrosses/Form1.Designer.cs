@@ -52,6 +52,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
+            this.lblScore = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel10.SuspendLayout();
             this.panel9.SuspendLayout();
@@ -79,7 +80,7 @@
             this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.label1);
-            this.panel1.Location = new System.Drawing.Point(12, 10);
+            this.panel1.Location = new System.Drawing.Point(12, 40);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(260, 260);
             this.panel1.TabIndex = 0;
@@ -313,17 +314,29 @@
             // 
             this.label14.AutoSize = true;
             this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.Location = new System.Drawing.Point(0, 283);
+            this.label14.Location = new System.Drawing.Point(0, 317);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(289, 15);
             this.label14.TabIndex = 1;
             this.label14.Text = "To play, simply click within the centre of the squares.";
             // 
+            // lblScore
+            // 
+            this.lblScore.AutoSize = true;
+            this.lblScore.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblScore.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.lblScore.Location = new System.Drawing.Point(53, 9);
+            this.lblScore.Name = "lblScore";
+            this.lblScore.Size = new System.Drawing.Size(174, 13);
+            this.lblScore.TabIndex = 2;
+            this.lblScore.Text = "Score: Player 1: 0 Player 2: 0";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(288, 318);
+            this.ClientSize = new System.Drawing.Size(288, 354);
+            this.Controls.Add(this.lblScore);
             this.Controls.Add(this.label14);
             this.Controls.Add(this.panel1);
             this.Name = "Form1";
@@ -379,6 +392,7 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.Label lblScore;
     }
 }
 
