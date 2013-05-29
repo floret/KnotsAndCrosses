@@ -118,7 +118,7 @@ namespace KnotsAndCrosses
             label11.Text = "";
             label12.Text = "";
             label13.Text = "";
-            turn = 0;
+            turn = 1;
             flag1 = 0;
             flag2 = 0;
             flag3 = 0;
@@ -128,7 +128,7 @@ namespace KnotsAndCrosses
             flag7 = 0;
             flag8 = 0;
             flag9 = 0;
-            lblScore.Text = "Score: Player 1: " + "0" + " Player 2: " + "0"; 
+            //lblScore.Text = "Score: Player 1: " + "0" + " Player 2: " + "0"; 
         }
         /// <summary>
         /// Determines when someone wins.

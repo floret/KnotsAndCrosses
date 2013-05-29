@@ -6,3 +6,4 @@ F:\main\Folders\Cracks\Coding\C# files\GitHub\KnotsAndCrosses\KnotsAndCrosses\Kn
 F:\main\Folders\Cracks\Coding\C# files\GitHub\KnotsAndCrosses\KnotsAndCrosses\KnotsAndCrosses\obj\Debug\KnotsAndCrosses.exe
 F:\main\Folders\Cracks\Coding\C# files\GitHub\KnotsAndCrosses\KnotsAndCrosses\KnotsAndCrosses\obj\Debug\KnotsAndCrosses.pdb
 F:\main\Folders\Cracks\Coding\C# files\GitHub\KnotsAndCrosses\KnotsAndCrosses\KnotsAndCrosses\obj\Debug\KnotsAndCrosses.Form1.resources
+F:\main\Folders\Cracks\Coding\C# files\GitHub\KnotsAndCrosses\KnotsAndCrosses\KnotsAndCrosses\obj\Debug\KnotsAndCrosses.csprojResolveAssemblyReference.cache
