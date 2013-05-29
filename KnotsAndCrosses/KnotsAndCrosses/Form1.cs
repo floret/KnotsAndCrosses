@@ -267,5 +267,6 @@ namespace KnotsAndCrosses
     }
 }
 //TODO: Fix the reset so that it works.
+//TODO: make selections permanent while a round is on going.
 //TODO: ask the user best of how many they would like to play.
 //TODO: let the player choose between single- and multiplayer.
